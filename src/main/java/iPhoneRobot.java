@@ -1,14 +1,13 @@
 public class iPhoneRobot {
     private String  name;
-    private Mobile mobile;
+    private iPhone iPhone;
 
-    public iPhoneRobot(String name, Mobile mobile) {
+    public iPhoneRobot(String name, iPhone iPhone) {
         this.name = name;
-        this.mobile = mobile;
+        this.iPhone = iPhone;
     }
 
     public void useMobile(String inputMessage){
-       if(mobile.getClass()==iPhone.class){}
-
+        iPhone.call(inputMessage);
     }
 }

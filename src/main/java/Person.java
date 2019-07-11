@@ -10,4 +10,8 @@ public class Person {
     public void call(String inputMessage){
         mobile.call(inputMessage);
     }
+
+    public void setMobile(Mobile mobile) {
+        this.mobile = mobile;
+    }
 }
